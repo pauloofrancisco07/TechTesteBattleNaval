@@ -78,7 +78,7 @@ namespace BatalhaNavalTeste
         {
             // Construindo um tabuleiro
             BatalhaNaval v_BatalhaNaval = new BatalhaNaval();
-
+             
             String[] v_PosicaoNavio = { "B1", "B2", "B3" };
 
             v_BatalhaNaval.adicionarNavio(v_PosicaoNavio, Convert.ToInt64(NaviosEnum.Navios.m_Submarino));
