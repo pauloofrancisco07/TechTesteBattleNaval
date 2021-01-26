@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paulo_wb6qw5k\\Desktop\\tech-test-train-master\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval.csproj": {}
+    "C:\\Users\\paulo_wb6qw5k\\Documents\\GitHub\\TechTesteBattleNaval\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paulo_wb6qw5k\\Desktop\\tech-test-train-master\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval.csproj": {
+    "C:\\Users\\paulo_wb6qw5k\\Documents\\GitHub\\TechTesteBattleNaval\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paulo_wb6qw5k\\Desktop\\tech-test-train-master\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval.csproj",
+        "projectUniqueName": "C:\\Users\\paulo_wb6qw5k\\Documents\\GitHub\\TechTesteBattleNaval\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval.csproj",
         "projectName": "TechTeste_BatalhaNaval",
-        "projectPath": "C:\\Users\\paulo_wb6qw5k\\Desktop\\tech-test-train-master\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval.csproj",
+        "projectPath": "C:\\Users\\paulo_wb6qw5k\\Documents\\GitHub\\TechTesteBattleNaval\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval.csproj",
         "packagesPath": "C:\\Users\\paulo_wb6qw5k\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paulo_wb6qw5k\\Desktop\\tech-test-train-master\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval\\obj\\",
+        "outputPath": "C:\\Users\\paulo_wb6qw5k\\Documents\\GitHub\\TechTesteBattleNaval\\TechTeste_BatalhaNaval\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\paulo_wb6qw5k\\AppData\\Roaming\\NuGet\\NuGet.Config",
