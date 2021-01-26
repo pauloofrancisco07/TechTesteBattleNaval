@@ -24,3 +24,16 @@ C:\Users\paulo_wb6qw5k\Desktop\tech-test-train-master\TechTeste_BatalhaNaval\Tec
 C:\Users\paulo_wb6qw5k\Desktop\tech-test-train-master\TechTeste_BatalhaNaval\TechTeste_BatalhaNaval\obj\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.dll
 C:\Users\paulo_wb6qw5k\Desktop\tech-test-train-master\TechTeste_BatalhaNaval\TechTeste_BatalhaNaval\obj\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.pdb
 C:\Users\paulo_wb6qw5k\Desktop\tech-test-train-master\TechTeste_BatalhaNaval\TechTeste_BatalhaNaval\obj\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.genruntimeconfig.cache
+C:\Users\paulo_wb6qw5k\Documents\GitHub\TechTesteBattleNaval\TechTeste_BatalhaNaval\bin\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.exe
+C:\Users\paulo_wb6qw5k\Documents\GitHub\TechTesteBattleNaval\TechTeste_BatalhaNaval\bin\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.deps.json
+C:\Users\paulo_wb6qw5k\Documents\GitHub\TechTesteBattleNaval\TechTeste_BatalhaNaval\bin\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.runtimeconfig.json
+C:\Users\paulo_wb6qw5k\Documents\GitHub\TechTesteBattleNaval\TechTeste_BatalhaNaval\bin\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.runtimeconfig.dev.json
+C:\Users\paulo_wb6qw5k\Documents\GitHub\TechTesteBattleNaval\TechTeste_BatalhaNaval\bin\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.dll
+C:\Users\paulo_wb6qw5k\Documents\GitHub\TechTesteBattleNaval\TechTeste_BatalhaNaval\bin\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.pdb
+C:\Users\paulo_wb6qw5k\Documents\GitHub\TechTesteBattleNaval\TechTeste_BatalhaNaval\obj\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.csprojAssemblyReference.cache
+C:\Users\paulo_wb6qw5k\Documents\GitHub\TechTesteBattleNaval\TechTeste_BatalhaNaval\obj\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.AssemblyInfoInputs.cache
+C:\Users\paulo_wb6qw5k\Documents\GitHub\TechTesteBattleNaval\TechTeste_BatalhaNaval\obj\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.AssemblyInfo.cs
+C:\Users\paulo_wb6qw5k\Documents\GitHub\TechTesteBattleNaval\TechTeste_BatalhaNaval\obj\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.csproj.CoreCompileInputs.cache
+C:\Users\paulo_wb6qw5k\Documents\GitHub\TechTesteBattleNaval\TechTeste_BatalhaNaval\obj\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.dll
+C:\Users\paulo_wb6qw5k\Documents\GitHub\TechTesteBattleNaval\TechTeste_BatalhaNaval\obj\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.pdb
+C:\Users\paulo_wb6qw5k\Documents\GitHub\TechTesteBattleNaval\TechTeste_BatalhaNaval\obj\Debug\netcoreapp3.1\TechTeste_BatalhaNaval.genruntimeconfig.cache

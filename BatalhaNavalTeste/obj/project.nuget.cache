@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qMZZtWHScbMX86H7aeRhfHn1YS8knqBrDwFgiSG4/d5Etws+IPqh99hJg4ExbSYl7DjHTeUIkpPrk4i3HEV+nA==",
+  "dgSpecHash": "DQVjZuLBhkFVKSEsMHxe0gDa1XNzoHkJkPcQ8DpZI7JqfijV1CEyC5qjRXiG4FBNPm/qW/EuvMzZEQSeKrJ3yg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\paulo_wb6qw5k\\Desktop\\tech-test-train-master\\TechTeste_BatalhaNaval\\BatalhaNavalTeste\\BatalhaNavalTeste.csproj",
+  "projectFilePath": "C:\\Users\\paulo_wb6qw5k\\Documents\\GitHub\\TechTesteBattleNaval\\BatalhaNavalTeste\\BatalhaNavalTeste.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\paulo_wb6qw5k\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\paulo_wb6qw5k\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
