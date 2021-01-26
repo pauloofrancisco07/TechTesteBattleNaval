@@ -8,12 +8,12 @@ namespace TechTeste_BatalhaNaval
     {
         public String[,] m_matrizTabuleiroDefesa = new String[11, 11];
         public String[,] m_matrizTabuleiroAtaque = new String[11, 11];
-        public String[] m_PortaAviao = new String[5];
-        public String[] m_Encouracado = new String[4];
-        public String[] m_Submarino = new String[3];
-        public String[] m_Destroyer = new String[3];
-        public String[] m_Patrulha = new String[2];
-        public List<String> m_Movimentos;
+        public List<String> m_PortaAviao = new List<String>();
+        public List<String> m_Encouracado = new List<String>();
+        public List<String> m_Submarino = new List<String>();
+        public List<String> m_Destroyer = new List<String>();
+        public List<String> m_Patrulha = new List<String>();
+        public List<String> m_Movimentos = new List<String>();
 
         public List<String> m_ColunaPadrao = new List<String> { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J" };
         public List<String> m_LinhaPadrao = new List<String> { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" };
@@ -55,10 +55,9 @@ namespace TechTeste_BatalhaNaval
 
         public Boolean adicionarNavio(String[] p_Posicoes, Int64 p_TipoNavio)
         {
-            String[] v_PosicoesNavios = new String[p_Posicoes.Length]; // Transforma B4 passado na função por 4;4 que ai vai ser mais facil para pegar depois para salvar nas posicoes dos navios
+            List<String> v_PosicoesNavios = new List<String>(); // Transforma B4 passado na função por 4;4 que ai vai ser mais facil para pegar depois para salvar nas posicoes dos navios
             foreach (String v_Pos in p_Posicoes)
             {
-                Int64 Contador = 0;
                 Char[] v_ArrayChar = v_Pos.ToCharArray();
                 List<Int64> v_ListPosicoesNavios;
 
@@ -72,7 +71,7 @@ namespace TechTeste_BatalhaNaval
                     if (m_matrizTabuleiroDefesa[v_ListPosicoesNavios[0], v_ListPosicoesNavios[1]] == " - ")
                     {
                         m_matrizTabuleiroDefesa[v_ListPosicoesNavios[0], v_ListPosicoesNavios[1]] = " " + p_TipoNavio.ToString() + " ";
-                        v_PosicoesNavios[Contador] = v_ListPosicoesNavios[0] + ";" + v_ListPosicoesNavios[1];
+                        v_PosicoesNavios.Add(v_ListPosicoesNavios[0] + ";" + v_ListPosicoesNavios[1]);
                     }
                 }
                 else if (m_LinhaPadrao.Contains(v_ArrayChar[1].ToString()))
@@ -85,7 +84,7 @@ namespace TechTeste_BatalhaNaval
                     if (m_matrizTabuleiroDefesa[v_ListPosicoesNavios[0], v_ListPosicoesNavios[1]] == " - ")
                     {
                         m_matrizTabuleiroDefesa[v_ListPosicoesNavios[0], v_ListPosicoesNavios[1]] = " " + p_TipoNavio.ToString() + " ";
-                        v_PosicoesNavios[Contador] = v_ListPosicoesNavios[0] + ";" + v_ListPosicoesNavios[1];
+                        v_PosicoesNavios.Add(v_ListPosicoesNavios[0] + ";" + v_ListPosicoesNavios[1]);
                     }
 
                 }
@@ -94,7 +93,7 @@ namespace TechTeste_BatalhaNaval
                     return false;
                 }
             }
-            guardarTipoNavio(p_Posicoes, p_TipoNavio);
+            guardarTipoNavio(v_PosicoesNavios, p_TipoNavio);
             return true;
         }
 
@@ -118,6 +117,8 @@ namespace TechTeste_BatalhaNaval
         {
             Char[] v_ArrayChar = v_Posicao.ToCharArray();
             List<Int64> v_ListPosicoesNavios;
+
+            m_Movimentos.Add(m_Movimentos == null ? v_Posicao : ", "+ v_Posicao);
 
             if (m_LinhaPadrao.Contains(v_ArrayChar[0].ToString()))
             {
@@ -150,6 +151,7 @@ namespace TechTeste_BatalhaNaval
         {
             if (m_matrizTabuleiroDefesa[v_ListCordenadas[0], v_ListCordenadas[1]] != " - ")
             {
+                removerPosicaoNavioAcertado(m_matrizTabuleiroDefesa[v_ListCordenadas[0], v_ListCordenadas[1]], v_ListCordenadas[0], v_ListCordenadas[1]);
                 m_matrizTabuleiroAtaque[v_ListCordenadas[0], v_ListCordenadas[1]] = " @ ";
                 return true;
             }
@@ -160,7 +162,7 @@ namespace TechTeste_BatalhaNaval
             }
         }
 
-        private void guardarTipoNavio(String[] v_Posicoes, Int64 p_TipoNavio)
+        private void guardarTipoNavio(List<String> v_Posicoes, Int64 p_TipoNavio)
         {
             switch (p_TipoNavio)
             {
@@ -179,6 +181,39 @@ namespace TechTeste_BatalhaNaval
                 case 5:
                     m_Patrulha = v_Posicoes;
                     break;
+            }
+        }
+
+        private void removerPosicaoNavioAcertado(String p_TipoNavio, Int64 p_Linha, Int64 p_Coluna  )
+        {
+            switch (Convert.ToInt32(p_TipoNavio))
+            {
+                case 1:
+                    m_PortaAviao.Remove(m_PortaAviao[m_PortaAviao.IndexOf(p_Linha + ";"+ p_Coluna)]);
+                    break;
+                case 2:
+                    m_Encouracado.Remove(m_Encouracado[m_Encouracado.IndexOf(p_Linha + ";" + p_Coluna)]);
+                    break;
+                case 3:
+                    m_Destroyer.Remove(m_Destroyer[m_Destroyer.IndexOf(p_Linha + ";" + p_Coluna)]);
+                    break;
+                case 4:
+                    m_Submarino.Remove(m_Submarino[m_Submarino.IndexOf(p_Linha + ";" + p_Coluna)]);
+                    break;
+                case 5:
+                    m_Patrulha.Remove(m_Patrulha[m_Patrulha.IndexOf(p_Linha + ";" + p_Coluna)]);
+                    break;
+            }
+        }
+        public Boolean verificaGanhador()
+        {
+            if(m_Encouracado == null && m_Destroyer==null && m_PortaAviao == null && m_Patrulha == null && m_Submarino == null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
     }

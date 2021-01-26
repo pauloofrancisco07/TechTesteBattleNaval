@@ -43,7 +43,7 @@ namespace TechTeste_BatalhaNaval
             {
                 for (int i = 0; i <= 10; i++)
                 {
-                    Console.Write(v_Batalha.m_matrizTabuleiroDefesa[j, i] + " ");
+                    Console.Write(v_Batalha.m_matrizTabuleiroAtaque[j, i] + " ");
                 }
                 Console.WriteLine(" ");
             }
