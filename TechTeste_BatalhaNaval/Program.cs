@@ -25,9 +25,19 @@ namespace TechTeste_BatalhaNaval
 
             v_check = v_Batalha.adicionarNavio(v_PosicaoNavio2, Convert.ToInt64(NaviosEnum.Navios.m_Encouracado));
 
-            String[] v_PosicaoNavio3 = { "D3", "E3", "F3", "G3", "H3" };
+            String[] v_PosicaoNavio3 = { "D9", "E9", "F9", "G9", "H9" };
 
             v_check = v_Batalha.adicionarNavio(v_PosicaoNavio3, Convert.ToInt64(NaviosEnum.Navios.m_PortaAviao));
+
+            String[] v_PosicaoNavio4 = { "A1", "A2" };
+
+            v_check = v_Batalha.adicionarNavio(v_PosicaoNavio4, Convert.ToInt64(NaviosEnum.Navios.m_Patrulha));
+
+            String[] v_PosicaoNavio5 = { "J3", "J4", "J5" };
+
+            v_check = v_Batalha.adicionarNavio(v_PosicaoNavio5, Convert.ToInt64(NaviosEnum.Navios.m_Destroyer));
+
+            v_Batalha.fazerAtaque("A2");
 
             for (int j = 0; j <= 10; j++)
             {
