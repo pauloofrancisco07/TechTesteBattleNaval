@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rVT6rbVP6r4Hj+jAvTU0kbcPMIbcfqH1yIFg0SsLZ/8OdmMD8LhwHhb/UiVGbSWTcYf2XkqNKHbwH/fac+lPug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\paulo_wb6qw5k\\Desktop\\tech-test-train-master\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval\\TechTeste_BatalhaNaval.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\paulo_wb6qw5k\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\paulo_wb6qw5k\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
